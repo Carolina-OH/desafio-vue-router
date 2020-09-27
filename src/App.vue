@@ -7,23 +7,23 @@
                 <!-- MENU DE NAVEGACION -->
                 <ul class="nav navbar-nav ml-auto" id="menu-v8">
                     <li class="nav-item" role="presentation">
-                     <router-link to="/"></router-link>
-                      <a href="/">portada</a>
+                     <router-link to="/">Portada</router-link>
+                      
                     </li>
                     <li class="nav-item" role="presentation">
                       <!-- REEMPLAZAR CON ELEMENTO ROUTER LINK A CON RUTA NOMBRADA -->
-                      <router-link to="name:{SobreMi}"></router-link>
-                      <a href="/sobremi">sobre mí</a> 
+                      <router-link :to="{name:'SobreMi'}">Sobre Mi</router-link>
+                      
                     </li>
                     <li class="nav-item" role="presentation">
                       <!-- REEMPLAZAR CON ELEMENTO ROUTER LINK A CON RUTA ESTÁTICA -->
-                      <router-link to="/contacto"></router-link>
-                      <a href="/contacto">contacto</a>
+                      <router-link to="/contacto">Contacto</router-link>
+                      
                     </li>
                     <li class="nav-item" role="presentation">
                       <!-- REEMPLAZAR CON ELEMENTO ROUTER LINK A RUTA ESTÁTICA -->
-                      <router-link to="/post/1"></router-link>
-                      <a href="/post/1">último post</a> 
+                      <router-link to="/post/1">Último post</router-link>
+                      
                     </li>
                 </ul>
         </div>
